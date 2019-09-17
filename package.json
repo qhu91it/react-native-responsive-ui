@@ -1,6 +1,6 @@
 {
   "name": "react-native-responsive-ui",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Responsive UIs for React Native",
   "main": "dist/src/index.js",
   "repository": "https://github.com/wcandillon/react-native-responsive-ui",
@@ -27,7 +27,7 @@
     ]
   },
   "peerDependencies": {
-    "react": ">=16.8.3",
+    "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
@@ -42,14 +42,15 @@
     "eslint": "^6.0.1",
     "eslint-config-react-native-wcandillon": "2.0.2",
     "jest": "^24.8.0",
-    "react": "^16.8.6",
-    "react-native": "^0.59.9",
+    "react": "^16.9.0",
+    "react-native": "^0.60.5",
     "react-test-renderer": "^16.8.6"
   },
   "jest": {
     "preset": "react-native"
   },
   "dependencies": {
+    "core-js": "^3.2.1",
     "lodash": "^4.17.11"
   }
 }
